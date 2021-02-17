@@ -1,0 +1,48 @@
+.App {
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  font-family: 'Lato';
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+.App-logo {
+  height: 30px;
+  width: auto;
+  margin-left: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  padding: 0 15px 50px;
+}
+.settings {
+  margin: 10px 0;
+}
+.settings > * {
+  margin: 0 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
